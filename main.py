@@ -490,7 +490,7 @@ class GameRules(Piece, Board):
     def should_promote(piece):
         return piece.__class__ == Pawn and piece.y in [0, 7]
     def can_en_passent(piece, get=""):
-        if piece.__class__ == Pawn:
+        if piece.__class__ != Pawn:
             return
         adj_p = None
         """gets adjacent pieces of pawn"""
