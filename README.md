@@ -5,7 +5,6 @@ A fully ASCII CLI chess program written in python. Built as a personal project f
 
 ## 🎮 Features
 - **Official Chess Notation Commands**- play using standard chess moves
-- **Engaging Bot Remarks**- get witty remarks while playing
 - **Edge Case Handling**- all rules and scenarios are covered
 - **Retro-esque Text Vibes**- gotta love the ASCII
 - **En Passent**- <ins>en passent</ins>
@@ -14,9 +13,9 @@ A fully ASCII CLI chess program written in python. Built as a personal project f
 
 ```
 # Open a terminal
-# Run pip install chess-som==0.3
+# Run pip install chess-som
 
-# Make sure file environment has access to chess_som
+# Make sure the file environment has access to chess_som
 from chess_som import UI
 
 ui = UI()
