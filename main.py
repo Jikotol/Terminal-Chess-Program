@@ -533,6 +533,7 @@ class UI(GameRules):
             if self.moves_from_last_capture == 100:
                 UI.ask_draw(UI.color_turn(self.turns), "50 Moves Rule")
             self.turns += 1
+            print()
             print(self.board)
         return 
     def get_move(self):
